@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Powered Developer Portfolio
 
-## Getting Started
+A modern developer portfolio built with **Next.js** that showcases my experience as a senior web developer.
+The portfolio features an **AI-integrated chatbot** capable of answering questions about my skills, projects, and professional background.
 
-First, run the development server:
+![Portfolio Preview](/images/portfolio.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is designed to go beyond a traditional static portfolio. It combines modern web technologies with AI to create an interactive experience for visitors, recruiters, and potential collaborators.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The AI chatbot acts as a dynamic interface, allowing users to ask questions about my work, tech stack, and experience in real time.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **AI / LLM API**
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- AI-powered chatbot trained to answer questions about my work and experience
+- Modern, responsive portfolio design
+- Project showcase with detailed case studies
+- Server-side rendering and optimized performance
+- Dark mode and accessible UI
+- Scalable architecture using modern web tooling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔗 Links
 
-## Deploy on Vercel
+- **Live Demo:** [https://your-portfolio.vercel.app](https://your-portfolio.vercel.app)
+- **Repository:** [https://github.com/yourusername/ai-dev-portfolio](https://github.com/yourusername/ai-dev-portfolio)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Some professional projects are not publicly available due to client confidentiality and proprietary restrictions. The showcased projects represent public or personal work that reflects my approach, tooling, and engineering standards.
