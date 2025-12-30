@@ -30,8 +30,8 @@ The AI chatbot acts as a dynamic interface, allowing users to ask questions abou
 
 ## 🔗 Links
 
-- **Live Demo:** [https://your-portfolio.vercel.app](https://your-portfolio.vercel.app)
-- **Repository:** [https://github.com/yourusername/ai-dev-portfolio](https://github.com/yourusername/ai-dev-portfolio)
+- **Live Demo:** [https://shalawdev.netlify.app/](https://your-portfolio.vercel.app)
+- **Repository:** [https://github.com/shalawfatah/ai_integrated_profile](https://github.com/yourusername/ai-dev-portfolio)
 
 ## 📌 Notes
 
