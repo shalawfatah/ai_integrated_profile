@@ -17,6 +17,7 @@ export const projects = [
     ],
     repo_link: "https://github.com/shalawfatah/tmdb-api",
     live_link: "https://imdb-movies-api.netlify.app/",
+    note: "",
   },
   {
     id: 2,
@@ -43,13 +44,14 @@ export const projects = [
     ],
     repo_link: "https://github.com/shalawfatah/rava_crm",
     live_link: "https://apps.apple.com/us/app/rava/id6471388519",
+    note: "",
   },
   {
     id: 3,
     slug: "invoice-generator",
     title: "Invoice Generator",
     description:
-      "Create invoices, estimates, PTOs, on the go and see calculate your revenue and spending per the tasks you perform on the daily bases and with visualisations and explanatory charts.",
+      "A cross-platform mobile app for creating invoices, estimates, and PTOs on the go, with automatic revenue and expense tracking.",
     imageUrl: "/images/invoice.webp",
     techstack: [
       "React",
@@ -69,6 +71,7 @@ export const projects = [
     ],
     repo_link: "https://github.com/shalawfatah/invoice-generator.git",
     live_link: "https://apps.apple.com/us/app/invoice-generator/id6463258259",
+    note: "",
   },
   {
     id: 4,
@@ -89,6 +92,7 @@ export const projects = [
     ],
     repo_link: "https://github.com/yourusername/design-library",
     live_link: "https://design-library.vercel.app",
+    note: "Under maintenance for now",
   },
   {
     id: 5,
@@ -114,5 +118,6 @@ export const projects = [
     ],
     repo_link: "https://github.com/shalawfatah/ai_integrated_profile",
     live_link: "https://shalawdev.netlify.app/",
+    note: "",
   },
 ];

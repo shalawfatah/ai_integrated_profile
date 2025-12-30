@@ -12,6 +12,11 @@ export default function ProjectPage() {
 
   return (
     <div className="max-w-4xl mx-auto p-6 space-y-6">
+      {project.note.length > 3 ? (
+        <div className="bg-black text-white p-4 mx-auto text-center">
+          <p className="text-gray-300 text-sm">{project.note}</p>
+        </div>
+      ) : null}
       <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">
         {project.title}
       </h1>
@@ -79,22 +84,30 @@ export default function ProjectPage() {
       </div>
 
       <div className="flex gap-4 mt-4">
-        <a
-          href={project.repo_link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-4 py-[2px] bg-blue-600 text-white rounded-[2px] hover:bg-blue-700 transition text-sm font-bold"
+        <button
+          type="button"
+          disabled={project.note.length > 3}
+          onClick={() => window.open(project.repo_link, "_blank")}
+          className={`px-4 py-[2px] rounded-[2px] text-sm font-bold transition
+    ${project.note.length > 3
+              ? "bg-gray-400 cursor-not-allowed"
+              : "bg-blue-600 hover:bg-blue-700 text-white cursor-pointer"
+            }`}
         >
           View Repo
-        </a>
-        <a
-          href={project.live_link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-4 py-[2px] bg-green-600 text-white rounded-[2px] hover:bg-green-700 transition text-sm font-bold"
+        </button>
+        <button
+          type="button"
+          disabled={project.note?.length > 3}
+          onClick={() => window.open(project.live_link, "_blank")}
+          className={`px-4 py-[2px] rounded-[2px] text-sm font-bold transition
+    ${project.note?.length > 3
+              ? "bg-gray-400 cursor-not-allowed"
+              : "bg-green-600 hover:bg-green-700 text-white cursor-pointer"
+            }`}
         >
           Live Site
-        </a>
+        </button>
       </div>
     </div>
   );
