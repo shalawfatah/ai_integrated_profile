@@ -112,7 +112,7 @@ export const projects = [
       "Dark mode and accessible UI",
       "Scalable architecture using modern web tooling",
     ],
-    repo_link: "https://github.com/yourusername/ai-dev-portfolio",
-    live_link: "https://your-portfolio.vercel.app",
+    repo_link: "https://github.com/shalawfatah/ai_integrated_profile",
+    live_link: "https://shalawdev.netlify.app/",
   },
 ];

@@ -3,7 +3,7 @@
 A modern developer portfolio built with **Next.js** that showcases my experience as a senior web developer.
 The portfolio features an **AI-integrated chatbot** capable of answering questions about my skills, projects, and professional background.
 
-![Portfolio Preview](/images/portfolio.png)
+![Portfolio Preview](https://shalawdev.netlify.app/_next/image?url=%2Fimages%2Fportfolio.png&w=1920&q=75)
 
 ## ✨ Overview
 
