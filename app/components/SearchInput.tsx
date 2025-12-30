@@ -45,7 +45,7 @@ export default function SearchInput() {
         Anything About My Programming Journey
       </h2>
 
-      <div className="space-y-4">
+      <div className="space-y-4 m-2">
         <div className="relative">
           <input
             type="text"
@@ -69,7 +69,7 @@ export default function SearchInput() {
             className="
               absolute right-3 top-1/2 -translate-y-1/2
               text-zinc-400 hover:text-zinc-600 transition
-              disabled:opacity-50
+              disabled:opacity-50 cursor-pointer
             "
             aria-label="Ask AI"
           >
