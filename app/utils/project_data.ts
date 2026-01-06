@@ -120,4 +120,33 @@ export const projects = [
     live_link: "https://shalawdev.netlify.app/",
     note: "",
   },
+  {
+    id: 6,
+    slug: "ai-cv-cover-tweaker",
+    title: "AI Resume & Cover Letter Optimizer",
+    description:
+      "Smart job application tool that analyzes job postings and tailors your resume and cover letter in real-time. Automatically emphasizes relevant skills, rewrites your professional summary, and generates personalized cover letters - all optimized for each specific role you're applying to.",
+    imageUrl: "/images/cv_cover.png",
+    techstack: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "Gemini AI API",
+    ],
+    features: [
+      "AI-powered job posting analysis with instant resume adaptation",
+      "Automatic skill highlighting based on employer requirements",
+      "Dynamic professional summary generation tailored to each role",
+      "One-click AI-generated personalized cover letters",
+      "Real-time side-by-side editing and preview",
+      "PDF export for resume and cover letter",
+      "Job application tracking to prevent duplicate submissions",
+      "Redux state management for seamless data flow",
+    ],
+    repo_link: "https://github.com/shalawfatah/resume_cover_builder",
+    live_link: "https://cvtweaker.netlify.app/",
+    note: "",
+  },
 ];
