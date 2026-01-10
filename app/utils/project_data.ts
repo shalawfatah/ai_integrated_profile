@@ -95,6 +95,7 @@ export const projects = [
       "Accessible and semantic HTML",
       "Documentation with live examples",
       "Optimized for production",
+      "Free & Open Source for anyone to use or extend",
     ],
     repo_link: "https://github.com/shalawfatah/design-library",
     live_link: "https://designlib.netlify.app",
