@@ -86,25 +86,15 @@ export default function ProjectPage() {
       <div className="flex gap-4 mt-4">
         <button
           type="button"
-          disabled={project.note.length > 3}
           onClick={() => window.open(project.repo_link, "_blank")}
-          className={`px-4 py-[2px] rounded-[2px] text-sm font-bold transition
-    ${project.note.length > 3
-              ? "bg-gray-400 cursor-not-allowed"
-              : "bg-blue-600 hover:bg-blue-700 text-white cursor-pointer"
-            }`}
+          className={`px-4 py-[2px] rounded-[2px] text-sm font-bold transition bg-blue-600 hover:bg-blue-700 text-white cursor-pointer`}
         >
           View Repo
         </button>
         <button
           type="button"
-          disabled={project.note?.length > 3}
           onClick={() => window.open(project.live_link, "_blank")}
-          className={`px-4 py-[2px] rounded-[2px] text-sm font-bold transition
-    ${project.note?.length > 3
-              ? "bg-gray-400 cursor-not-allowed"
-              : "bg-green-600 hover:bg-green-700 text-white cursor-pointer"
-            }`}
+          className={`px-4 py-[2px] rounded-[2px] text-sm font-bold transition bg-green-600 hover:bg-green-700 text-white cursor-pointer`}
         >
           Live Site
         </button>

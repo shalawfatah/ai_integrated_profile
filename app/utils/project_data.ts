@@ -96,9 +96,9 @@ export const projects = [
       "Documentation with live examples",
       "Optimized for production",
     ],
-    repo_link: "https://github.com/yourusername/design-library",
-    live_link: "https://design-library.vercel.app",
-    note: "Under maintenance for now",
+    repo_link: "https://github.com/shalawfatah/design-library",
+    live_link: "https://designlib.netlify.app",
+    note: "In progress now",
   },
   {
     id: 5,
