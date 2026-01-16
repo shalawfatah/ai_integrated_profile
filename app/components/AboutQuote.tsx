@@ -1,11 +1,11 @@
 export default function AboutMeQuote() {
   return (
-    <div className="max-w-3xl mx-auto p-8 rounded-xl shadow-lg relative my-8">
+    <div className="max-w-4xl mx-auto p-10 rounded-xl shadow-lg relative my-8">
       <span className="text-[300px] text-zinc-300 dark:text-zinc-700 absolute -top-36 -left-4 select-none mx-4">
         “
       </span>
 
-      <p className="text-lg text-zinc-800 dark:text-zinc-100 relative z-10 text-center">
+      <p className="text-xl text-zinc-800 dark:text-zinc-100 relative z-10 text-center">
         Hey 👋 my name is <strong>Shalaw</strong>, a senior web developer. I
         enjoy working with{" "}
         <span className="text-[#F0DB4F] font-bold">Javascript</span> /
