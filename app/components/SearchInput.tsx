@@ -40,8 +40,8 @@ export default function SearchInput() {
 
   return (
     <div className="w-full max-w-2xl mx-auto space-y-6">
-      <h2 className="p-4 text-center">
-        <span className="text-yellow-200 font-bold text-xl">Personal AI:</span> Ask
+      <h2 className="p-2 text-center text-xl">
+        <span className="text-yellow-200 font-bold">Personal AI:</span> Ask
         Anything About My Programming Journey
       </h2>
 
