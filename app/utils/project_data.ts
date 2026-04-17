@@ -153,7 +153,7 @@ export const projects = [
       "Secure backend with Supabase and PostgreSQL",
     ],
     repo_link: "https://github.com/shalawfatah/rava_crm",
-    live_link: "https://apps.apple.com/us/app/rava/id6471388519",
+    live_link: "https://apps.apple.com/us/app/rava-center/id6762065267",
     note: "",
   },
 ];
