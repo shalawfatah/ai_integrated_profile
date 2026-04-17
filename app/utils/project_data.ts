@@ -156,4 +156,31 @@ export const projects = [
     live_link: "https://apps.apple.com/us/app/rava-center/id6762065267",
     note: "",
   },
+  {
+    id: 7,
+    slug: "rava-education",
+    title: "Rava Education",
+    platform: "mobile",
+    description:
+      "This is a React Native-based app for accessing the educational content of an educational center.",
+    imageUrl: "/images/teaching.png",
+    techstack: [
+      "React",
+      "React Native",
+      "Expo",
+      "PostgreSQL",
+      "React Native Paper",
+    ],
+    features: [
+      "Dashboard managment through the app",
+      "Uploading documents and educational content",
+      "Direct and relatime chat",
+      "Push notifications for messages and updates",
+      "Cross-platform mobile support (iOS & Android)",
+      "Secure backend with Supabase and PostgreSQL",
+    ],
+    repo_link: "https://github.com/shalawfatah/rava_crm",
+    live_link: "https://apps.apple.com/us/app/teachers-students/id6759322582",
+    note: "",
+  },
 ];
