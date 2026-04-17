@@ -179,7 +179,7 @@ export const projects = [
       "Cross-platform mobile support (iOS & Android)",
       "Secure backend with Supabase and PostgreSQL",
     ],
-    repo_link: "https://github.com/shalawfatah/rava_crm",
+    repo_link: "https://github.com/shalawfatah/teachers_app",
     live_link: "https://apps.apple.com/us/app/teachers-students/id6759322582",
     note: "",
   },
