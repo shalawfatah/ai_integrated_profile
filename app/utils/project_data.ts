@@ -163,7 +163,7 @@ export const projects = [
     platform: "mobile",
     description:
       "This is a React Native-based app for accessing the educational content of an educational center.",
-    imageUrl: "/images/teaching.png",
+    imageUrl: "/images/rava_addition.png",
     techstack: [
       "React",
       "React Native",
@@ -182,5 +182,32 @@ export const projects = [
     repo_link: "https://github.com/shalawfatah/teachers_app",
     live_link: "https://apps.apple.com/us/app/teachers-students/id6759322582",
     note: "",
+  },
+  {
+    id: 8,
+    slug: "ishtar-studio",
+    title: "Ishtar Studio AI Agency",
+    platform: "web",
+    description:
+      "A high-performance cinematic web platform for an AI consultancy specializing in bridging the gap between LLM potential and production-ready enterprise implementation.",
+    imageUrl: "/images/ishtar.png",
+    techstack: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Framer Motion",
+      "Tailwind CSS",
+    ],
+    features: [
+      "Strategic AI Roadmap: Interactive 'Strategic Path' component detailing the discovery-to-automation framework.",
+      "Agentic Tooling Focus: Specialized service modules for LLM orchestration and custom AI agent development.",
+      "Cinematic UI/UX: High-end dark mode aesthetic featuring glassmorphism, glowing gradients, and fluid Framer Motion animations.",
+      "Bento Grid Expertise: Responsive architectural layout showcasing core competencies and technical domain authority.",
+      "Conversion-Optimized Flow: Integrated 'Work With Us' strategic CTA with professional lead intake modal.",
+      "Edge-Ready Performance: Optimized Next.js architecture with instant load times for a seamless studio experience.",
+    ],
+    repo_link: "https://github.com/shalawfatah/Ishtar-Studio",
+    live_link: "https://ishtarstudio.netlify.app/",
+    note: "The primary brand identity focuses on technical precision and business ROI, positioning AI as a seamless orchestration layer.",
   },
 ];
